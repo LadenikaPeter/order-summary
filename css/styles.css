@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0; 
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;  
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.main-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px 18px 0 0 ;
+}
+.container{
+   padding: 0;
+}
+.card{
+    width:330px;
+    margin: auto;
+    border-radius: 18px;
+    padding-bottom: 20px;
+}
+p{ 
+    font-size: 16px;
+    display: inline-block; 
+}
+.main-header{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding: 15px 0 15px;
+}
+.main-text{
+    color: hsl(224, 23%, 55%);
+}
+
+.music-plan{
+    background-color:  hsl(225, 100%, 94%);
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px; 
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+}
+
+.image{
+    float: left;
+    align-items: center;
+    margin-left: 10px;
+}
+.music-text-1{
+   margin: 10px 50px 20px 10px;
+   line-height: 1.5;
+   color: hsl(224, 23%, 55%);
+}
+.music-text-1-color{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.music-text-2{
+    margin: auto
+}
+.trial{
+    margin: 0 20px 0;
+}
+.cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 10px ;
+}
+.change:hover{
+ color: hsl(224, 23%, 55%);
+ text-decoration: none;
+}
+.payment:hover{
+     background-color: hsl(224, 23%, 55%); 
+     border: 0;
+}
